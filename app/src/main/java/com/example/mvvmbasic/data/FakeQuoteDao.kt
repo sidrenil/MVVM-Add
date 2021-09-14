@@ -7,7 +7,6 @@ class FakeQuoteDao {
     private val quoteList = mutableListOf<Quote>()
     private val quotes = MutableLiveData<List<Quote>>()
 
-
     init {
         quotes.value = quoteList
     }
